@@ -2,12 +2,12 @@ import { ApolloProvider } from '@apollo/client';
 import { client } from './lib/apollo';
 import './styles/global.css';
 
-import { Header } from './components/Header';
+import { Marketplace } from './pages/marketplace';
 
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Header />
+      <Marketplace />
     </ApolloProvider>
   );
 }

@@ -21,7 +21,11 @@ module.exports = {
         300: '#293547',
       }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        banner: "url('/src/assets/building-banner.png')"
+      }
+    },
   },
   plugins: [],
 }
